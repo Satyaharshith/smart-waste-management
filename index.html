@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Waste Management | Smarter Waste, Cleaner Cities</title>
+<meta name="description" content="Smart Waste Management System for real-time waste monitoring, optimized collection and cleaner communities.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#173b2f;background:#f7fbf8}
+nav{position:sticky;top:0;z-index:10;background:#ffffffee;backdrop-filter:blur(10px);border-bottom:1px solid #dcebe1}
+.navbar{max-width:1100px;margin:auto;padding:15px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:20px;font-weight:800;color:#126b45}
+.navlinks{display:flex;gap:22px;list-style:none}
+.navlinks a{text-decoration:none;color:#315447;font-weight:600;font-size:14px}
+.hero{background:linear-gradient(135deg,#0b6b45,#15915c);color:white;padding:85px 22px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;gap:45px;align-items:center}
+.badge{display:inline-block;background:#ffffff22;border:1px solid #ffffff44;padding:7px 13px;border-radius:20px;font-size:13px;margin-bottom:18px}
+h1{font-size:52px;line-height:1.08;margin-bottom:18px}
+.hero p{font-size:18px;max-width:650px;color:#eafff2}
+.btn{display:inline-block;margin-top:25px;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:700;margin-right:10px}
+.btn-primary{background:white;color:#096541}
+.btn-outline{border:1px solid white;color:white}
+.bin-card{background:#ffffff16;border:1px solid #ffffff40;border-radius:22px;padding:30px;text-align:center}
+.bin-icon{font-size:90px}
+.bin-card h3{font-size:22px;margin-top:8px}
+section{padding:70px 22px}
+.container{max-width:1100px;margin:auto}
+.section-title{text-align:center;font-size:34px;margin-bottom:12px;color:#124d38}
+.section-sub{text-align:center;color:#61766c;max-width:700px;margin:0 auto 40px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:white;border:1px solid #dfebe4;border-radius:15px;padding:25px;box-shadow:0 8px 25px #174d3210}
+.card .icon{font-size:32px;margin-bottom:10px}
+.card h3{margin-bottom:8px;color:#15543c}
+.problem{background:#eef8f1}
+.solution{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.solution-box{background:#0e754b;color:white;border-radius:20px;padding:35px}
+.solution-box h3{font-size:25px;margin-bottom:12px}
+.steps{margin-top:20px;display:grid;gap:13px}
+.step{background:#ffffff18;padding:12px 15px;border-radius:10px}
+.targets{background:#f0f7f3}
+.cta{background:linear-gradient(135deg,#123e30,#0b7049);color:white;text-align:center}
+.cta h2{font-size:38px;margin-bottom:12px}
+.cta p{max-width:700px;margin:auto;color:#dff5e8}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact-box{background:white;padding:28px;border-radius:15px;border:1px solid #dfebe4}
+.contact-box p{margin:8px 0;color:#526960}
+footer{background:#0b3024;color:#cfe5d9;text-align:center;padding:25px}
+@media(max-width:800px){
+ .hero-inner,.solution,.contact{grid-template-columns:1fr}
+ h1{font-size:40px}
+ .cards{grid-template-columns:1fr}
+ .navlinks{display:none}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="navbar">
+    <div class="logo">♻️ Smart Waste</div>
+    <ul class="navlinks">
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#solution">Solution</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="badge">SMART WASTE MANAGEMENT SYSTEM</span>
+      <h1>Smarter Waste.<br>Cleaner Cities.<br>Greener Future.</h1>
+      <p>Monitor waste levels in real time, reduce unnecessary collection trips, and make waste management more efficient with smart technology.</p>
+      <a class="btn btn-primary" href="#contact">Request a Demo</a>
+      <a class="btn btn-outline" href="#solution">Explore Solution</a>
+    </div>
+    <div class="bin-card">
+      <div class="bin-icon">🗑️</div>
+      <h3>Smart Bin Monitoring</h3>
+      <p>Know when bins need collection and plan smarter routes.</p>
+    </div>
+  </div>
+</header>
+
+<section id="problem" class="problem">
+  <div class="container">
+    <h2 class="section-title">The Problem</h2>
+    <p class="section-sub">Traditional waste collection can lead to overflowing bins, irregular schedules, unnecessary vehicle trips and higher operating costs.</p>
+    <div class="cards">
+      <div class="card"><div class="icon">⚠️</div><h3>Overflowing Bins</h3><p>Waste can accumulate before collection teams know a bin needs attention.</p></div>
+      <div class="card"><div class="icon">🚛</div><h3>Unnecessary Trips</h3><p>Vehicles may visit bins that are not yet full, wasting time and fuel.</p></div>
+      <div class="card"><div class="icon">💰</div><h3>Higher Costs</h3><p>Inefficient collection schedules increase operational and maintenance expenses.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="solution">
+  <div class="container solution">
+    <div>
+      <h2 class="section-title" style="text-align:left">Our Smart Solution</h2>
+      <p style="color:#61766c">Our system uses smart-bin monitoring to provide timely waste-level information. Collection teams can use this information to prioritize bins and improve collection planning.</p>
+      <div class="steps">
+        <div><strong>01. Monitor</strong> — Track waste levels in smart bins.</div>
+        <div><strong>02. Alert</strong> — Identify bins that require collection.</div>
+        <div><strong>03. Optimize</strong> — Plan efficient collection routes and schedules.</div>
+      </div>
+    </div>
+    <div class="solution-box">
+      <h3>From reactive to proactive collection</h3>
+      <p>Make collection decisions using real-time information instead of relying only on fixed schedules.</p>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="problem">
+  <div class="container">
+    <h2 class="section-title">Key Features & Benefits</h2>
+    <p class="section-sub">Designed to help organizations improve efficiency, cleanliness and decision-making.</p>
+    <div class="cards">
+      <div class="card"><div class="icon">📡</div><h3>Real-Time Monitoring</h3><p>Get visibility into waste levels and collection needs.</p></div>
+      <div class="card"><div class="icon">🗺️</div><h3>Better Route Planning</h3><p>Prioritize collection and reduce unnecessary travel.</p></div>
+      <div class="card"><div class="icon">🌱</div><h3>Cleaner Communities</h3><p>Reduce overflowing bins and support cleaner public spaces.</p></div>
+      <div class="card"><div class="icon">📊</div><h3>Data-Driven Decisions</h3><p>Use waste information to improve operational planning.</p></div>
+      <div class="card"><div class="icon">⛽</div><h3>Lower Resource Use</h3><p>Reduce avoidable trips, fuel consumption and collection effort.</p></div>
+      <div class="card"><div class="icon">🏙️</div><h3>Scalable Solution</h3><p>Suitable for communities, campuses, businesses and municipalities.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="targets">
+  <div class="container">
+    <h2 class="section-title">Who We Serve</h2>
+    <p class="section-sub">Our solution can support organizations responsible for managing waste collection and cleanliness.</p>
+    <div class="cards">
+      <div class="card"><h3>🏛️ Municipalities</h3><p>Improve city-level collection planning.</p></div>
+      <div class="card"><h3>🏘️ Residential Communities</h3><p>Keep shared waste areas cleaner.</p></div>
+      <div class="card"><h3>🎓 Schools & Colleges</h3><p>Manage campus waste efficiently.</p></div>
+      <div class="card"><h3>🏥 Hospitals</h3><p>Support organized waste collection.</p></div>
+      <div class="card"><h3>🏢 Businesses</h3><p>Improve waste operations across facilities.</p></div>
+      <div class="card"><h3>🏭 Industrial Areas</h3><p>Support large-scale waste monitoring.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Ready to Make Waste Smarter?</h2>
+    <p>Let’s explore how smart monitoring can improve your waste collection process, reduce avoidable costs and create cleaner spaces.</p>
+    <a class="btn btn-primary" href="#contact">Request a Demo</a>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-sub">Interested in our Smart Waste Management System? Get in touch for a demonstration.</p>
+    <div class="contact">
+      <div class="contact-box">
+        <h3>📩 Request a Demo</h3>
+        <p>Email: smartwaste@example.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+        <p>Location: Andhra Pradesh, India</p>
+      </div>
+      <div class="contact-box">
+        <h3>🌍 Our Mission</h3>
+        <p>To make waste collection smarter, more efficient and more sustainable through technology and data-driven management.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Smart Waste Management System | Smarter Waste. Cleaner Cities. Greener Future.</p>
+</footer>
+</body>
+</html>
